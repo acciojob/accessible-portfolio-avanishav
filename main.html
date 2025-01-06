@@ -4,22 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<title>Practice</title>
+	<title>ARIA ROLE</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<header>
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Contact-us</li>
-			</ul>
-		</nav>
+		<h1 role="heading">Welcome to ARIA Role Example</h1>
 	</header>
-	<img src="photo" alt="photo">
-	<h1>This is the Description about the image</h1>
+	<nav role="navigation">
+		<ul role="list">
+			<li role="listitem"><a>Home</a></li>
+			<li role="listitem"><a>About</a></li>
+			<li role="listitem"><a>Contact-us</a></li>
+		</ul>
+	</nav>
+	<section>
+		<img role= "img" src="photo" alt="photo">
+		<p>This is an example page of ARIA role in html</p>
+	</section>
+
+	<section>
+		<h2>Adding List</h2>
+		<ul role="list">
+			<li role="listitem">1st List</li>
+			<li role="listitem">2nd List</li>
+			<li role="listitem">3rd List</li>
+		</ul>
+	</section>
     <script type="text/javascript" src="./script.js">
 </script>
 
